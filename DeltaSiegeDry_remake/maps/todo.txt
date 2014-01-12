@@ -1,0 +1,7 @@
+todo:
+compress tree textures
+compress everything 
+fix smd dds
+check normals
+fix pathing center - novecs
+reduce pebbliness in basin

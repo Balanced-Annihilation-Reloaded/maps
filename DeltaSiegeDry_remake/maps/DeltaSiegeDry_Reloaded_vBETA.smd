@@ -1,0 +1,147 @@
+[MAP]
+{
+	Description=DeltaSiegeDry * 4 - 10 Players * made by IceXuick(@dagdief.nl);
+	TidalStrength=20;
+	Gravity=120;
+	MaxMetal=1.0;
+	ExtractorRadius=100;
+	MapHardness=10;
+	AutoShowMetal=1;
+	detailNormalTex= detailnormals.bmp;
+	SpecularTex=spec.tga;
+	splatDetailTex=splattex.tga;
+	splatDistrTex=splatd.tga;
+	[SPLATS]{
+		splatTexScales=0.008 0.004 0.012 0.004; //rock,grass, sand, pebbles
+		splatTexMults=0.4 0.4 0.4 0.4;
+	}
+	
+	[GRASS]{
+  
+    GrassBladeWaveScale = 3.0;
+    GrassBladeWidth = 0.9;
+    GrassBladeHeight = 8;
+    GrassBladeAngle = 1.4;
+}
+	[ATMOSPHERE]
+	{
+		FogColor=0.63 0.74 0.28;
+		CloudColor=1 0.89 0.7;
+		SkyColor=0.76 0.83 1;
+		SunColor=1 0.99 0.81;
+		FogStart=.9;
+		CloudDensity=0.3;
+		MinWind=1;
+		MaxWind=13;
+	}
+
+	[LIGHT]
+	{
+		SunDir=-0.09 0.556 -0.515;
+		GroundAmbiantColor=1 1 1;
+		GroundSunColor=1 1 1;
+		UnitAmbiantColor=1 0.93 0.67;
+		UnitSunColor=1 0.93 0.67;
+		SpecularSunColor=1 1 1;		
+	}
+
+	[TERRAINTYPE0]
+	{
+		name=Earth;
+		hardness=15;
+		tankmovespeed=1;
+		kbotmovespeed=1;
+		hovermovespeed=1;
+		shipmovespeed=1;
+	}
+	[TERRAINTYPE50]
+	{
+		name=LowerLands;
+		hardness=15;
+		tankmovespeed=1.1;
+		kbotmovespeed=1;
+		hovermovespeed=1;
+		shipmovespeed=1;
+	}
+	
+	[TERRAINTYPE100]
+	{
+		name=RockSand;
+		hardness=13;
+		tankmovespeed=1;
+		kbotmovespeed=0.9;
+		hovermovespeed=1;
+		shipmovespeed=1;
+	}
+	
+	[TERRAINTYPE150]
+	{
+		name=GrassnBushes;
+		hardness=20;
+		tankmovespeed=0.9;
+		kbotmovespeed=1;
+		hovermovespeed=0.9;
+		shipmovespeed=1;
+	}
+	
+	[TERRAINTYPE255]
+	{
+		name=Rock;
+		hardness=50;
+		tankmovespeed=1;
+		kbotmovespeed=1;
+		hovermovespeed=1;
+		shipmovespeed=1;
+	}
+	
+	[TEAM0]
+	{
+		StartPosX=863;
+		StartPosZ=803;
+	}
+	[TEAM1]
+	{
+		StartPosX=9544;
+		StartPosZ=755;
+	}
+	[TEAM2]
+	{
+		StartPosX=455;
+		StartPosZ=4760;
+	}
+	[TEAM3]
+	{
+		StartPosX=9856;
+		StartPosZ=4700;
+	}
+	[TEAM4]
+	{
+		StartPosX=683;
+		StartPosZ=2062;
+	}
+	[TEAM5]
+	{
+		StartPosX=9420;
+		StartPosZ=2074;
+	}
+	[TEAM6]
+	{
+		StartPosX=515;
+		StartPosZ=3441;
+	}
+	[TEAM7]
+	{
+		StartPosX=9850;
+		StartPosZ=3000;
+	}
+	[TEAM8]
+	{
+		StartPosX=2530;
+		StartPosZ=4680;
+	}
+	[TEAM9]
+	{
+		StartPosX=7925;
+		StartPosZ=4512;
+	}
+}
