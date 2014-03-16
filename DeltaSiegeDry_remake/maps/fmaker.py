@@ -21,7 +21,7 @@ reds =([])
 for size in ['_m','_l','_xl','_xxl']:
 	for types in ['_1','_2','_3']:
 		reds.append('ad0_pine'+types+size)
-pr = 0.03
+pr = 0.05
 
 greens = ([] )
 pg=0.002
