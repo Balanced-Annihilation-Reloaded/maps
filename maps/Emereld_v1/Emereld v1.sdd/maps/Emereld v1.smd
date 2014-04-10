@@ -1,0 +1,148 @@
+[MAP]
+{
+	Description=made by Bluestone;
+	TidalStrength=16;
+	Gravity=115;
+	MaxMetal=4.56;
+	ExtractorRadius=90;
+	MapHardness=215;
+	AutoShowMetal=1;
+	
+	[SMF]{
+	maxheight=900;
+	minheight=-100;
+	}
+
+	[ATMOSPHERE]
+	{
+		FogColor=0.41 0.89 0.73;
+		FogStart=0.69;
+		CloudColor=0.43 0.03 0.08;
+		SkyColor=1 0.5 0;
+		SunColor=1 1 0.85;
+		CloudDensity=0.18;
+		MinWind=5;
+		MaxWind=22;
+	}
+
+	[WATER]
+	{
+		WaterSurfaceColor=0.8 0.8 1;
+		WaterPlaneColor=0 0.11 0.21;
+		WaterBaseColor=0.9 0.95 1;
+		WaterAbsorb=0 0 0;
+		WaterMinColor=0 0 0;
+	}
+
+	[LIGHT]
+	{
+		SunDir=1.2 0.75 0.55;
+		GroundAmbiantColor=0.02 0 0;
+		GroundSunColor=0.9 0.8 0.7;
+		GroundShadowDensity=1;
+		UnitAmbiantColor=0.02 0 0;
+		UnitSunColor=1 0.70 0.25;
+		UnitShadowDensity=1;
+		SpecularSunColor=1 0.70 0.25;
+	}
+	[TERRAINTYPE0]
+	{
+		name=Ground;
+		hardness=5;
+		tankmovespeed=1;
+		kbotmovespeed=1;
+		hovermovespeed=1;
+		shipmovespeed=1;
+	}
+	[TERRAINTYPE255]
+	{
+		name=Cliff;
+		hardness=5;
+		tankmovespeed=0;
+		kbotmovespeed=0;
+		hovermovespeed=0;
+		shipmovespeed=0;
+	}
+	[TEAM0]
+	{
+		StartPosX = 2937;		
+		StartPosZ = 8771;
+	}
+	[TEAM1]
+	{
+		StartPosX = 8078;		
+		StartPosZ = 2043;
+	}
+	[TEAM2]
+	{
+		StartPosX = 6042;		
+		StartPosZ = 9332;
+	}
+	[TEAM3]
+	{
+		StartPosX = 6021;		
+		StartPosZ = 1725;
+	}
+	[TEAM4]
+	{
+		StartPosX = 8153;
+		StartPosZ = 7946;
+	}
+	[TEAM5]
+	{
+		StartPosX = 3409;		
+		StartPosZ = 2409;
+	}
+	[TEAM6]
+	{
+		StartPosX = 2118;		
+		StartPosZ = 7260;
+	}
+	[TEAM7]
+	{
+		StartPosX = 9266;	
+		StartPosZ = 3579;
+	}
+	[TEAM8]
+	{
+		StartPosX = 3851;		
+		StartPosZ = 7519;
+	}
+	[TEAM9]
+	{
+		StartPosX = 7111;		
+		StartPosZ = 3666;
+	}
+	[TEAM10]
+	{
+		StartPosX = 9035;		
+		StartPosZ = 6191;
+	}
+	[TEAM111]
+	{
+		StartPosX = 2813;		
+		StartPosZ = 4378;
+	}
+	[TEAM12]
+	{
+		StartPosX = 6238;
+		StartPosZ = 7127;
+	}
+	[TEAM13]
+	{
+		StartPosX = 4830;
+		StartPosZ = 3811;
+	}
+	[TEAM14]
+	{
+		StartPosX = 4196;		
+		StartPosZ = 5656;
+	}
+	[TEAM15]
+	{
+		StartPosX = 7128;		
+		StartPosZ = 5539;
+	}
+
+
+}
